@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow:row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper > * {
+    padding: 10px;
+}
+
+header {
+    flex: 1 100%;
+    background: radial-gradient(at center center, #58038c, #041065);
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: "Candara Light", serif;
+}
+
+footer {
+    flex: 1 100%;
+    background: radial-gradient(at center center, #58038c, #041065);
+}
+
+.p1 {
+    font-family: "Candara Light", serif;
+    color: white;
+    font-size: 15px;
+}
+
+.main {
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 50%;
+    font-family: "Candara Light", serif;
+    background-color: #38138d;
+    margin: 2%;
+}
+
+legend {
+    padding: 10px 20px;
+    font-family: Chiller, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+fieldset {
+    border: none;
+    background-color: #6250a2;
+    color: white;
+}
+
+#nav {
+    padding: 20px;
+    flex: 1 2%;
+    background-color: #38138d;
+    margin: 2%;
+}
+
+aside {
+    background: #38138d;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    flex: 1 2%;
+    margin: 2%;
+}
+
+table {
+    border: 3px solid;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+    background: white;
+    border: 1px solid #000;
+    border-radius: 4px;
+    color: #000;
+}
+button:hover {
+    transition: .2s;
+    background: black;
+    color: #fff;
+}
+button[disabled]:hover {
+    cursor: not-allowed;
+    background: white;
+    color: #000;
+}
+.buttons button {
+    border: 1px solid #000;
+    margin: 5px 10px;
+}
+input {
+    margin: 5px 0;
+}
+aside p {
+    font-family: "Candara Light", serif;
+    text-align: left;
+}
+
+#anons{
+    font-size: 70px;
+    animation: blink 1s linear infinite;
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+@keyframes blink {
+    from {
+        color: orangered;
+    }
+    50% {
+        color: darkred;
+    }
+    to {
+        color: orangered;
+    }
+}
+
+

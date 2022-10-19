@@ -1,0 +1,180 @@
+table{
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+td{
+    width: 800px;
+    height: 750px;
+    border: 1px solid #000000;
+}
+
+td:first-child{
+    background-origin: padding-box;
+    background: url('/resource/fon.gif') no-repeat;
+    background-size: cover;
+    column-width: 100px;
+    column-count: 3;
+    column-gap: 1%;
+    padding: 3px;
+    margin: 0;
+    column-rule: 3px solid red;
+}
+
+td:first-child>p:first-child{
+    text-shadow:1px 1px 2px chartreuse, 0 0 1em red;
+    font-family: "Arial Black";
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+td:first-child>p:nth-last-child(2){
+    font-family: Candara;
+    font-size: 20px;
+    font-weight: initial;
+    font-style: initial;
+}
+
+td:first-child>p:last-child{
+    font-family: Forte;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: revert;
+}
+
+td:first-child>p:last-child span{
+    font-family: Forte;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: revert;
+}
+
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+td>img:first-child {
+    position: absolute;
+    left: 750px;
+    top: 300px;
+    opacity: 10%;
+}
+
+td>img:nth-last-child(2){
+    position: absolute;
+    left: 850px;
+    top: 250px;
+    opacity: 30%;
+}
+
+td>img:last-child{
+    position: absolute;
+    left: 950px;
+    top: 200px;
+    opacity: 50%;
+}
+
+body>img{
+    position: absolute;
+    animation-duration: 10s;
+    animation-name: flight;
+}
+
+#first{
+    animation-name: first;
+    animation-duration: 10s;
+}
+
+
+#last{
+    animation-name: last;
+    animation-duration: 10s;
+}
+
+@keyframes first{
+    from {
+        left: 750px;
+        top: 300px;
+    }
+    33%
+    {
+        left: 800px;
+        top: 250px;
+    }
+    66% {
+        left: 850px;
+        top: 230px;
+    }
+    to
+    {
+        left: 950px;
+        top: 200px;
+    }
+}
+
+@keyframes last{
+    from {
+        left: 950px;
+        top: 200px;
+    }
+    33%
+    {
+        left: 900px;
+        top: 250px;
+    }
+    66% {
+        left: 800px;
+        top: 280px;
+    }
+    to
+    {
+        left: 750px;
+        top: 300px;
+    }
+}
+
+@keyframes flight {
+    from {
+        filter: opacity(20%) saturate(10);
+        transform: rotate(180deg);
+        left: 25px;
+        top: -100px
+    }
+    33%
+    {
+        filter: opacity(70%) brightness(0.25);;
+        transform: rotate(100deg);
+        left: 450px;
+        top: 133px
+    }
+    66% {
+        filter: opacity(50%) contrast(160%);
+        transform: rotate(75deg);
+        left: 875px;
+        top: 267px;
+    }
+    to
+    {
+        filter: opacity(100%) grayscale(100%) saturate(1);
+        transform: rotate(80deg);
+        left: 1300px;
+        top: 600px;
+    }
+}
+
+span[style^= "font-size: 25px"]{
+    color: red;
+}
+
+span[style^= "font-size: 30px"]{
+    color: green;
+}
+
+span[style^= "font-size: 35px"]{
+    color: blue;
+}
+
+

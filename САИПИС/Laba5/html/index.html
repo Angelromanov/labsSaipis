@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <form>
+    <div class="container">  
+        <div>      
+            <div class="header"></div>
+            <p class="text1">Система автомобилей на автостоянке</p> 
+        </div>
+        <div>
+          <div class="article"></div>
+          <p class="text2">Название автомобиля:</p> <input type="text" size="30" class="input1" id="txt1" placeholder="Название автомобиля">
+          <p class="text3">ФИО:</p> <input type="text" size="30" class="input2" id="txt2"  placeholder="ФИО">
+          <p class="text4">Номер автомобиля:</p><input type="text" size="30" class="input3" id="txt3" placeholder="Номер автомобиля">
+          <p class="text5">Время стоянки:</p><input type="text" size="30" class="input4" id="txt4" placeholder="Время стоянки">
+          <button type="button" id="btn1" class="button">Добавить новую запись</button>
+          <button type="button" id="btn2" class="button">Очистить форму</button>
+          <button type="button" id="btn3" class="button">Удалить выбранную запись</button>
+          <button type="button" id="btn4" class="button" >Вывести все записи</button>
+          <button type="button" id="btn5" class="button">Вывести min и max</button>
+          <button type="button" id="btn6" class="button">Добавить поле "Адрес клиента"</button>
+          <button type="button" id="btn7" class="button">Количество строк в таблице</button>
+          <div class="list" id="listDel"></div>
+          <div class="TxtField" id="txtFld"></div>
+          <div class="TxtField2" id="txtFld2"></div>
+        </div>
+        <div>
+          <table id="elem" class="tbl"cellspacing="0" width="45%" bgcolor="purple">
+                <tbody>
+                    <tr>
+                    <td><span id="title1">
+                    <font  size="1"><strong>Название автомобиля</strong></font>
+                    </span>
+                    </td>
+                    <td ><span id="title2">
+                    <font size="1"><strong>ФИО</strong></font>
+                    </span>
+                    </td>
+                    <td>
+                    <font size="1"><strong>Номер автомобиля</strong></font>
+                    </td>
+                    <td>
+                    <font size="1"><strong>Время стоянки</strong></font>
+                    </td>
+                    <td>
+                    <font size="1"><strong>Адрес клиента</strong></font>
+                    </td>
+                    </tr>
+                </tbody>
+            </table>    
+        </div>
+    </div>
+    </form>
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+body {
+    background: black;
+}
+
+#body {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(at top center, #3d005e, #041065);
+}
+
+ul{
+    margin-top: 0;
+    font-size: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+
+li:before{
+    content: url("../img/e29d97.png");
+}
+
+li:after{
+    content: url("../img/f09f8698.png");
+}
+
+#block1 {
+   margin-bottom: -50px;
+}
+
+#block2 {
+    border: 4px solid;
+    border-radius: 0px 0px 20px 20px;
+    padding: 20px 10px 90px 10px;
+    background: #eee4e4;
+}
+
+a {
+    color: rgb(141, 0, 163);
+    font-size: 24px;
+}
+
+#block2 p {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-top: 30px;
+
+}
+
+#block2 p:first-letter {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+.romb {
+    width: 150px;
+    height: 150px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    padding: 5px;
+}
+
+.romb>p{
+    opacity: 50%;
+    color: #3d005e;
+    font-size: 30px;
+    text-align: center;
+}
+
+.romb:nth-child(3n+1)
+{
+    background: #fd6d93;
+}
+
+.romb:nth-child(3n+2)
+{
+    background: #cc179b;
+}
+
+.romb:nth-child(3n)
+{
+    background: #ff156a;
+}
+
+.blink {
+    font-size: 70px;
+    animation: blink 3s linear infinite;
+    text-decoration: none;
+}
+
+@keyframes blink {
+    from {
+        color: darkblue;
+    }
+    50% {
+        color: red;
+    }
+    to {
+        color: darkblue;
+    }
+}

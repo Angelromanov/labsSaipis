@@ -1,0 +1,69 @@
+.wrapper {
+  display: flex;  
+  flex-flow:row wrap;
+  text-align: center; 
+  background-color: white;
+}
+
+.wrapper  * {
+  flex: 1 100%;
+}
+
+.d{
+    width: 500px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.header {
+  border-bottom: solid;
+  border-color: black;
+}
+.header span {
+	font-size: 50px;
+	line-height: 130px;
+}
+
+.footer {
+  border-top: solid;
+  border-color: black;
+  min-height: 100px;
+}
+
+.article {
+  background-image: url("../resource/background.jpg");
+  background-size: cover;
+  opacity: 0.9;
+  min-height: 420px;
+  min-width: 200px;
+  overflow: auto;
+}
+
+#form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	text-align:left;
+	justify-content: center;
+    line-height: 1.5;
+    background-color: rgba(0,0,0,0.6);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0.1em;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+
+#auto{
+    display: inline-block;
+    color: black;
+}
+
+
+
+

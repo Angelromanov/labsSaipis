@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Университет</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header"><span>Университет</span></header>
+
+        <article class="article">
+            
+            <form id="form" method="post">
+
+                    <div class="d">
+                        <span>Год Вашего рождения</span>
+                        <input id="birth" type="text" name="year" style=" width: 160px;">
+                    </div>
+
+                    <div class="d">
+                        <span>Ваш Университет</span>
+                        <input id="university" type="text" name="university" style=" width: 160px;">
+                    </div>
+
+                    <div class="d">
+                        <span>Ваш Факультет:</span>
+                        <input id="faculty" type="text" name="faculty" style=" width: 160px;">
+                    </div>
+
+                    <div class="d">
+                        <span>Вывод данных:</span>
+                        <span id="auto"  style=" width: 160px;"></span>
+                    </div>
+
+
+                    <div class="d">
+                        <span>Размер текста</span>
+                        <div>
+                            <input type="radio" class="textSize" name="textSize" value="10">10
+                            <input type="radio" class="textSize" name="textSize" value="12">12
+                            <input type="radio" class="textSize" name="textSize" value="14" checked>14
+                            <input type="radio" class="textSize" name="textSize" value="16">16
+                            <input type="radio" class="textSize" name="textSize" value="18">18
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <input type="Button" value="Заполнить форму" id="firstButton">
+                        <input type="Button" value="Вывод модального окна" id="secondButton">
+                        <input type="reset" value="Вывод данных текстового поля" id="lastButton">
+                    </div>
+            </form>
+        </article>
+        <nav><a href="index.html">Сбросить данные</a></nav>
+
+        <div id="dd"></div>
+    </div>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

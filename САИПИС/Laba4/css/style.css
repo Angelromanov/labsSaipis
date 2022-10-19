@@ -1,0 +1,73 @@
+.page{
+    background-color: #492a7e;
+    padding: 25px;
+    margin: 25px;
+    overflow: auto;
+}
+
+.table {
+    border: 3px dashed #492a7e;
+    box-shadow: 10px 10px 15px #cb634a;
+    border-collapse: collapse;
+    color: #000000;
+    font-weight: 700;
+    text-shadow: 5px 5px 5px #424141;
+    font-family: Arial, serif;
+    font-size: 40px;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+    margin: auto;
+}
+
+body{
+    background: url("../resource/polygons_5000x3000_qx1t3.jpg")  0 0 no-repeat fixed;;
+}
+
+td,tr{
+    border: 3px dashed #492a7e;
+    box-shadow: 10px 10px 15px #cb634a;
+    width: 250px;
+    height: 100px;
+}
+
+.colrow{
+    color: white;
+    font-size: 40px;
+}
+
+select{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#countRow,#countCol{
+    font-size: 30px;
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+.MainDiv, .math, .button{
+    text-align: center;
+}
+
+button{
+    width: 300px;
+    height: 50px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+button:hover{
+   background-color: #424141;
+   color: white;
+}
+
+button:active{
+    background-color: black;
+    color: white;
+}

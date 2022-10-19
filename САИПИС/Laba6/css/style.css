@@ -1,0 +1,57 @@
+.container{
+    position: relative;
+    width: 1000px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+}
+
+img {
+    max-width: 250px;
+    max-height: 200px;
+}
+
+.id1, .id2 {
+    max-width: 250px;
+    text-align: justify;
+}
+
+.idNew {
+    color: rgb(25, 0, 255);
+    max-width: 250px;
+
+}
+
+#idNew1{
+    color: rgb(248, 64, 110);
+    max-width: 250px;
+}
+
+#idNew2{
+    color: rgb(12, 142, 94);
+    max-width: 250px;
+}
+
+#changeStyle{
+    opacity: 1;
+}
+
+#changeStyle.active{
+    opacity: 0.3;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+input[type="button"] {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,230 @@
+body{
+	background-color: #3c3d66;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+	position: absolute;
+	background: linear-gradient(#00FF00, #006400);
+	max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background-size: cover;
+}
+
+.header{
+	margin: 20px 215px;
+	position: absolute;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    border-top:solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    border-left: solid 1px #fff;
+    border-right: solid 1px #fff;
+    height: 140px;
+    opacity: 0.7;
+}
+.list{
+	top:475px;
+	left:510px;
+	position: absolute;
+	color:#fff;
+	font-size:250%;
+}
+
+.TxtField{
+	top:355px;
+	left:290px;
+	position: absolute;
+    color:#fff;
+	font-size:150%;
+}
+.TxtField2{
+	top:380px;
+	left:600px;
+	position: absolute;
+    color:#fff;
+	font-size:150%;
+	position: absolute;
+	text-align: left;
+}
+.text1{
+	top:30px;
+	left:380px;
+	position: absolute;
+	color:#fff;
+	font-size:250%;
+}
+
+.text2{
+	top:160px;
+	left:290px;
+	position: absolute;
+	color:#fff;
+	font-size:150%;
+}
+
+.text3{
+	top:210px;
+	left:290px;
+	position: absolute;
+	color:#fff;
+	font-size:150%;
+}
+
+.text4{
+	top:260px;
+	left:290px;
+	position: absolute;
+	color:#fff;
+	font-size:150%;
+}
+
+.text5{
+	top:310px;
+	left:290px;
+	position: absolute;
+	color:#fff;
+	font-size:150%;
+}
+
+.input1{
+	top:187px;
+	left:600px;
+	position: absolute;
+    text-align: left;
+}
+
+.input2{
+	top:237px;
+	left:600px;
+	position: absolute;
+    text-align: left;
+}
+
+.input3{
+	top:287px;
+	left:600px;
+	position: absolute;
+    text-align: left;
+}
+
+
+.input4{
+	top:337px;
+	left:600px;
+	position: absolute;
+    text-align: left;
+}
+
+
+#select1{
+	top:247px;
+	left:990px;
+	position: absolute;
+}
+
+#btn1{
+	top:430px;
+	left:550px;
+	position: absolute;
+}
+#btn2{
+	top:480px;
+	left:780px;
+	position: absolute;
+}
+#btn3{
+	top:530px;
+	left:550px;
+	position: absolute;
+}
+#btn4{
+	top:430px;
+	left:780px;
+	position: absolute;
+}
+
+#btn5{
+	top:480px;
+	left:550px;
+	position: absolute;
+}
+
+#btn6{
+	top:530px;
+	left:780px;
+	position: absolute;
+}
+
+.button{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: #fff;
+    outline: none;
+    border: 0;
+    padding: 5px 7px;
+    transition: 0.2s;
+	cursor: pointer;
+	border: 1px solid #fff;
+	background-color: #006400;
+	color: #fff;
+    width: 200px;
+}
+
+.button:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+.button:active{
+    background-color: #000;
+    color: #fff;
+}
+
+.article{
+	top: 163px;
+	left:215px;
+	position: absolute;
+	width: 70%;
+    display: flex;
+    justify-content: space-between;
+    border-top:solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    border-left: solid 1px #fff;
+    border-right: solid 1px #fff;
+    height: 557px;
+    opacity: 0.7;
+}
+
+.tbl{
+	top:600px;
+	left:400px;
+	position: absolute;
+}
+
+td, th {
+	color:#fff;;
+	padding: 3px;
+	border: 1px solid #fff;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	transition: 0.2s;
+}
+
+
+table{
+	background-color: #006400;
+}
+
+#input5{
+	position: absolute;
+	left: 600px;
+	top: 300px;
+}

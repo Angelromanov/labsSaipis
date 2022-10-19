@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Опрос покупателя мобильного телефона</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script type="text/javascript" src="../js/script.js"></script>
+
+</head>
+<body>
+<div class="wrapper">
+
+  <header class="header">
+    <h1>Магазин мобильных телефонов</h1>
+  </header>
+
+  <article class="main">
+    <form id="form">
+
+      <fieldset>
+        <legend>Ваши данные</legend>
+        <div>
+         Ваше фамилия:
+          <input type="text" name="familia" id="familia">
+        </div>
+        <div>
+          Ваше имя:
+          <input type="text" name="name" id="name">
+        </div>
+        <div>
+         Ваше отчество:
+          <input type="text" name="secondname" id="secondname">
+        </div>
+        <div>
+         Ваш e-mail:
+          <input type="email" name="email" id="email">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Информация о телефоне</legend>
+        <div>
+          Вид:
+          <input type="radio" name="kind" value="sensor" checked>сенсорный
+          <input type="radio" name="kind" value="buttons">кнопочный
+        </div>
+        <div>
+          Предпочтительная модель:
+          <select name="model" id="model">
+            <option value="Нет">Нет</option>
+            <option value="Samsung">Samsung</option>
+            <option value="Iphone">Iphone</option>
+            <option value="Xiaomi">Xiaomi</option>
+            <option value="Huawei">Huawei</option>
+          </select>
+        </div>
+        <div>
+          Комплектация:
+          <input type="checkbox" name="char" value="Зарядка">Зарядка
+          <input type="checkbox" name="head" value="Наушники">Наушники
+          <input type="checkbox" name="wire" value="Провод">Бампер
+          <input type="checkbox" name="glass" value="Защитное стекло">Защитное стекло
+        </div>
+        <div>
+          Цвет телефона:
+          <input type="color" name="color" id="color">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Информация о покупке</legend>
+        <div>
+          Дата покупки:
+          <input type="datetime-local" name="PurchaseDate" id="PurchaseDate">
+        </div>
+        <div>
+          Оцените телефон:
+          <input type="number" name="number" id="number" min="0" max="10">
+        </div>
+      </fieldset>
+
+      <fieldset class="buttons">
+        <button name="send" type="button" onclick="validate()">Отправить</button>
+        <button name="clear" type="reset" onclick="clearArr()">Очистить</button>
+      </fieldset>
+
+    </form>
+  </article>
+
+  <nav id="nav">
+    <button name="send" type="button" disabled>Главная</button>
+    <br><br>
+    <button name="send" type="button" onclick="ShowAll()">Результаты</button>
+  </nav>
+
+  <aside>
+    <p id="anons">АНОНС</p>
+    <p>iPhone 15: новейший дисплей, скрытые сенсоры в Pro</p>
+  </aside>
+
+  <footer class="footer">
+    <p class="p1">Минск, 2022<br>ул. Платонова 39</p>
+  </footer>
+
+</div>
+</body>
+</html>

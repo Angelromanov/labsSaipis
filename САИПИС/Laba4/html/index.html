@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Строки и столбцы</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <div class="math">
+    <h2>Количество строк </h2>
+    <div id="countRow"></div>
+    <h2> Количество столбцов</h2>
+    <div id="countCol"></div>
+  </div>
+
+  <div class="page">
+    <div>
+      <table id="table" class="table">
+        <tr>
+          <td>
+            1
+          </td>
+          <td>
+            2
+          </td>
+        </tr>
+        <tr>
+          <td>
+            3
+          </td>
+          <td>
+            4
+          </td>
+        </tr>
+      </table>
+    </div>
+    </div>
+
+  <div class="MainDiv">
+    <div>
+      <form class="colrow">
+
+        <div>
+          <input type="radio" id="coll" name="colrow" checked>
+          <label for="coll"> Строка </label>
+          <select>
+            <option id="up" value="up">Сверху</option>
+            <option id="down" value="down">Снизу</option>
+          </select>
+        </div>
+
+        <div>
+          <input  type="radio" id="roww" name="colrow">
+          <label  for="roww">Столбец</label>
+          <select size="1">
+            <option id="left" value="left">Слева</option>
+            <option id="right" value="right">Справа</option>
+          </select>
+        </div>
+
+        <div>
+          <label> Слова </label>
+          <select>
+            <option id="Word1">Я-Первое Слово</option>
+            <option id="Word2">Я-Второе Слово</option>
+            <option id="Word3">Я-Третье Слово</option>
+            <option id="Word4">Я-Четвертое Слово</option>
+          </select>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <div class="button">
+    <button id="btn_add">Применить выбранные параметры</button>
+    <button id="btn_delF">Удалить первую строку</button>
+    <button id="btn_delL">Удалить последнюю строку</button>
+  </div>
+
+  <script src="../js/index.js"></script>
+</body>
+</html>
